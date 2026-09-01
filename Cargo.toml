@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "core",
+    "platform/windows",
+    "platform/linux",
+    "platform/macos",
+    "platform/android",
+    "platform/ios",
+    "examples/hello",
+]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
