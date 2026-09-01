@@ -1,0 +1,65 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+    /* Project */
+    1D6058900D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1330;
+      };
+      buildConfigurationList = 1D6058940D05DD3E006BFB54 /* Build configuration list for PBXProject */;
+      compatibilityVersion = "Xcode 13.0";
+      developmentRegion = English;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1D60588F0D05DD3D006BFB54;
+      productRefGroup = 1D6058970D05DD3E006BFB54 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+    };
+    1D60588F0D05DD3D006BFB54 = {
+      isa = PBXGroup;
+      children = (
+        1D6058920D05DD3D006BFB54,
+        1D6058930D05DD3D006BFB54,
+      );
+      sourceTree = "<group>";
+    };
+    1D6058920D05DD3D006BFB54 = {
+      isa = PBXGroup;
+      children = (
+        1D6058A20D05DD3E006BFB54,
+      );
+      name = TinyExample;
+      sourceTree = "<group>";
+    };
+    1D6058930D05DD3D006BFB54 = {
+      isa = PBXGroup;
+      children = (
+      );
+      name = Frameworks;
+      sourceTree = "<group>";
+    };
+    1D6058A20D05DD3E006BFB54 = {
+      isa = PBXFileReference;
+      lastKnownFileType = sourcecode.c.objc;
+      name = main.m;
+      path = main.m;
+      sourceTree = "<group>";
+    };
+    1D6058970D05DD3E006BFB54 = {
+      isa = PBXGroup;
+      children = (
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+  };
+  rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}
