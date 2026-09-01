@@ -1,0 +1,14 @@
+[build]
+target-dir = "target"
+
+[target.x86_64-unknown-linux-gnu]
+rustflags = ["-C", "opt-level=z", "-C", "link-args=-s"]
+
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "opt-level=z", "-C", "link-args=-s"]
+
+[target.aarch64-apple-ios]
+rustflags = ["-C", "opt-level=z", "-C", "link-args=-s"]
+
+[target.armv7-linux-androideabi]
+rustflags = ["-C", "opt-level=z", "-C", "link-args=-s"]
