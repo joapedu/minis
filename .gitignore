@@ -1,0 +1,17 @@
+# Rust
+target/
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# build artifacts
+*.apk
+*.ipa
+*.dSYM/
