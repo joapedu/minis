@@ -1,0 +1,11 @@
+[package]
+name = "tiny_linux_launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tiny_core = { path = "../../core" }
+
+[bin]
+name = "tiny-linux"
+path = "src/main.rs"
